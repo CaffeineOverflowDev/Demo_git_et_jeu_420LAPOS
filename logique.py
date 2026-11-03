@@ -39,7 +39,7 @@ class CibleBonus(Cible):
 
     def __init__(self):
         super().__init__()
-        self.points = 5
+        self.points = 10
         self.couleur = "gold"
 
 class Partie:
